@@ -43,5 +43,31 @@ botao{
     display: flex;
     justify-content: center;
     padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 4px solid var(--botao-ativo);
+    border-right: 4px solid var(--botao-ativo);
+    border-top: none;
 
+}
+.botoe:first-child{
+    border-radius: 40px 40px 0 0;
+}
+
+.botoes}{
+    display:blok;
+}
+@media screen and (min waidth: 768px) {
+    .botoes{
+      display: flex;
+    }
+    .botao:first-child{
+        border-radius: 40px 0 0 0 ;
+    }
+    .botao:last-child{
+        border-radius: 0 40px 0 0;
+    }
+    
 }
